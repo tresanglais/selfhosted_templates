@@ -215,6 +215,18 @@
         "container": "/config",
         "bind": "/portainer/Files/AppData/Config/Bitwarden-rs"
       }
+    ],
+    "env": [
+      {
+        "name": "SIGNUPS_ALLOWED",
+        "label": "SIGNUPS_ALLOWED",
+        "default": "false"
+      },
+      {
+        "name": "SIGNUPS_DOMAINS_WHITELIST",
+        "label": "SIGNUPS_DOMAINS_WHITELIST",
+        "default": ""
+      }
     ]
   },
   {
