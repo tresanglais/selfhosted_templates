@@ -209,7 +209,7 @@
     "categories": ["Other", "Tools"],
     "platform": "linux",
     "restart_policy": "unless-stopped",
-    "ports": [":80/tcp"],
+    "ports": ["46321:80/tcp"],
     "volumes": [
       {
         "container": "/config",
